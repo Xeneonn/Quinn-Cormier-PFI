@@ -1,0 +1,35 @@
+.images{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.image{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(202, 200, 192), rgb(178, 164, 164));
+}
+.nom{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Papyrus,fantasy;
+    margin: 10px;
+}
+img{
+    height: auto;
+    width: 100%;
+}
+@media screen and (max-width:1300px) {
+    .images{
+        display:grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+}
+@media screen and (max-width:800px) {
+    .images{
+        display:grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+}
